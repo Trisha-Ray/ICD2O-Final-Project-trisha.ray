@@ -6,7 +6,8 @@
 
 "use strict"
 
+//this function fractors a equation
 function factorEquation() {
   let equation = parseFloat(document.getElementById("equation").value)
-  
+
 }
