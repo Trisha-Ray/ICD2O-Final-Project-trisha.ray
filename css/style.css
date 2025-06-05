@@ -2,6 +2,10 @@
 * Created on: March 2025
 * This file contains the CSS for index.html
 */
+/* Created by: Trisha Ray
+* Created on: March 2025
+* This file contains the CSS for index.html
+*/
 
 .mdl-layout__header-row {
   justify-content: center;
@@ -12,6 +16,7 @@
   padding-left: 15pt;
   padding-right: 15pt;
   padding-top: 15pt;
+  max-width: 900px;
 }
 
 .mdl-textfield__error {
@@ -21,11 +26,17 @@
 .page-content {
   color: rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
+  text-align: center;
 }
 
 body {
   background-color: rgb(255, 252, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 img {
