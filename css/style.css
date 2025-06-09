@@ -20,7 +20,7 @@
 }
 
 .page-content {
-  color: rgb(0, 0, 0);
+  color: rgb(85, 37, 37);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.75rem;
   text-align: center;
@@ -37,5 +37,5 @@ body {
 
 img {
   float: center;
-  height: 200px;
+  height: 400px;
 }
