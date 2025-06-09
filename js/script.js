@@ -16,5 +16,17 @@ function factorNumber() {
   } else {
     let factors = ''
     let currentNumber = 1
+while (currentNumber <= number) {
+  if (number % currentNumber === 0) {
+    if (factors === "") {
+      factors = currentNumber
+    } else {
+      factors = factors + ", " + currentNumber
+    }
   }
 }
+  text = "Factors of " + number + " are: " + factors
+  }
+  document.getElementById("results").innerHTML = text
+}
+
