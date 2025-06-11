@@ -9,10 +9,15 @@
 }
 
 .mdl-layout__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-left: 15pt;
   padding-right: 15pt;
   padding-top: 15pt;
   max-width: 900px;
+  width: 100%;
 }
 
 .mdl-textfield__error {
@@ -36,6 +41,7 @@ body {
 }
 
 img {
-  float: center;
+  display: block;
+  margin: 0 auto;
   height: 500px;
 }
