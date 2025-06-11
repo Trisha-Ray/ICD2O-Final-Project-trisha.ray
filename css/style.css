@@ -16,7 +16,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(255, 255, 255);
+  color: rgb(69, 11, 11);
 }
 
 .page-content {
@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: rgb(255, 252, 254);
+  background-color: rgb(239, 216, 231);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,5 +37,5 @@ body {
 
 img {
   float: center;
-  height: 400px;
+  height: 500px;
 }
